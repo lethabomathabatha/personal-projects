@@ -1,14 +1,23 @@
+.container {
+  background-color: rgb(226, 243, 226);
+  display:flexbox;
+  flex-direction:column;
+  height: 1500px;
+}
+
 img {
   border-radius: 50%;
-  border: 4px solid chocolate;
-
+  border: 4px solid black;
 }
 
 header {
-  line-height: 0.2;
+  line-height: 0.4;
+  letter-spacing:2px;
+  text-align: center;
   width: 30%;
-  background-color: cadetblue;
-  color: azure;
+  background-color: rgb(226, 243, 226);
+  border-bottom: 5px solid black;
+  color: black;
   padding: 5%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   min-height: 195px;
@@ -16,67 +25,96 @@ header {
 }
 
 #professional_intro {
-  background-color: rgb(123, 208, 211);
+  background-color: rgb(226, 243, 226);
+  flex-direction: column;
+  justify-content: center;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
   float:right;
   min-width: 24px;
   min-height: 195px;
-  width: 55%;
+  width: 52%;
   height: 150px;
-  padding: 2%;
-  margin-top: -30%;
+  padding: 1%;
+  margin-top: -32%;
 }
 
 #contacts {
-  background-color: darkkhaki;
-  line-height: 0.2;
-  width: 30%;
+  background-color: grey;
+  border-radius: 12px 12px 12px 12px;
+  line-height: 0.5;
+  width: 36%;
+  margin-top: 30px ;
+  margin-bottom: 30px;
   min-height: 75px;
   min-width: 300px;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 15px; 
   color: azure; 
-  padding: 5%;
+  padding: 2%;
   font-weight: lighter;
 }
+
 #skills {
-  background-color: darksalmon;
-  line-height: 0.2;
-  width: 30%;
+  background-color: grey;
+  border-radius: 12px 12px 12px 12px;
+  line-height: 0.5;
+  width: 36%;
+  margin-bottom: 30px;
   min-height: 155px;
   min-width: 300px;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 15px; 
   color: azure; 
-  padding: 5%;
+  padding: 2%;
   font-weight: lighter;
 }
 
 #tools {
-  background-color: cornflowerblue;
-  line-height: 0.2;
-  width: 30%;
+  background-color: grey;
+  border-radius: 12px 12px 12px;
+  line-height: 0.5;
+  width: 36%;
+  margin-bottom: 30px;
   min-height: 85px;
   min-width: 300px;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 15px; 
   color: azure; 
-  padding: 5%;
+  padding: 2%;
   font-weight: lighter;
 }
 
 #experience {
-  background-color: sandybrown;
+  background-color: rgb(226, 243, 226);
+  border-left: 5px solid black;
+  margin-top: -67%;
   float: right;
   line-height: 1.5;
   width: 50%;
-  height: 700px;
+  height: 900px;
+  min-height: 85px;
+  min-width: 300px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px; 
+  color: black; 
+  padding: 2%;
+  font-weight: lighter;
+}
+
+#education {
+  background-color: gray;
+  flex-;
+  line-height: 1.5;
+  margin-top: 30px;
+  width: 90%;
+  height: 190px;
   min-height: 85px;
   min-width: 300px;
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 15px; 
   color: azure; 
-  padding: 5%;
+  padding: 2%;
   font-weight: lighter;
-  margin-top: -70%;
-  
+  margin-bottom: auto;
 }
