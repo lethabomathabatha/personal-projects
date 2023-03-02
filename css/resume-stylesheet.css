@@ -32,9 +32,51 @@ header {
   width: 30%;
   min-height: 75px;
   min-width: 300px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 15px; 
   color: azure; 
   padding: 5%;
   font-weight: lighter;
+}
+#skills {
+  background-color: darksalmon;
+  line-height: 0.2;
+  width: 30%;
+  min-height: 155px;
+  min-width: 300px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px; 
+  color: azure; 
+  padding: 5%;
+  font-weight: lighter;
+}
+
+#tools {
+  background-color: cornflowerblue;
+  line-height: 0.2;
+  width: 30%;
+  min-height: 85px;
+  min-width: 300px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px; 
+  color: azure; 
+  padding: 5%;
+  font-weight: lighter;
+}
+
+#experience {
+  background-color: sandybrown;
+  float: right;
+  line-height: 1.5;
+  width: 50%;
+  height: 700px;
+  min-height: 85px;
+  min-width: 300px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px; 
+  color: azure; 
+  padding: 5%;
+  font-weight: lighter;
+  margin-top: -70%;
+  
 }
