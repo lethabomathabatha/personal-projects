@@ -18,6 +18,7 @@
   background-color: salmon;
   padding: 20px;
   border-radius: 20px;
+  border: 1px solid black;
 }
 
 .calculator form input {
@@ -38,6 +39,9 @@ form .display {
   display: flex;
   justify-content: flex-end;
   margin: 20px 0;
+  border: 1px solid black;
+  border-radius: 12px;
+  background-color: rgb(241, 158, 149);
 }
 
 form .display input {
